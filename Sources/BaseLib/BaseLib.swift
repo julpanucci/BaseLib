@@ -11,6 +11,7 @@ public protocol FoodEater {
 
 @objc public class Food: NSObject {
 	
+	@objc
 	init(name: String) {
 		self.name = name
 	}

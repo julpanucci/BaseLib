@@ -2,18 +2,14 @@
 
 import Foundation
 
-struct BaseLib {
-    var text = "Hello, World!"
-}
-
 
 
 @objc
-public protocol BaseLibProtocol {
+public protocol FoodEater {
 	func eatFood()
 }
 
-@objc public class BaseClass: NSObject {
+@objc public class Food: NSObject {
 	
 	init(name: String) {
 		self.name = name
